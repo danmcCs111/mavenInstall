@@ -2,13 +2,13 @@
 orgDir=`pwd`
 cd "$(dirname "$0")"
 cd ..
-dir="apache-maven-3.9.12"
+dir="apache-maven-3.9.16"
 if [[ -d "$dir" ]]
 then
 	echo "maven exists"
 else
-	curl https://dlcdn.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.16-bin.zip --output apache-maven-3.9.16-bin.zip 
-	unzip apache-maven-3.9.12-bin.zip
+	curl https://dlcdn.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.zip --output apache-maven-3.9.16-bin.zip 
+	unzip apache-maven-3.9.16-bin.zip
 fi
 
 
